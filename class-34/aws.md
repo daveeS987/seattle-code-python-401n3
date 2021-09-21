@@ -14,7 +14,7 @@
 - Select Amazon Linux 2 AMI (Free Tier Eligible)
   - Select t2.micro
   - Review and Launch Instance
-  - Launch Instance*
+  - Launch Instance\*
   - Create a new Key Pair
   - Be sure to download PEM and save file
   - Launch Instance
@@ -35,16 +35,16 @@
 - See updates needed sudo yum update
 - sudo yum install git
 - clone repo (Be sure to select HTTPS)
-- #TODO: Missing Command
+- sudo yum install -y docker
 - sudo usermod -a -G docker ec2-user
 - sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 - sudo chmod +x /usr/local/bin/docker-compose
-- #TODO: Missing Command
-- #TODO: Missing Command
+- sudo service docker start
+- sudo chkconfig docker on
 - sudo rm /etc/localtime
-- #TODO: Missing Command
+- sudo docker swarm init
 
-- #TODO: Missing Command
+- sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 - sudo reboot
 - Add missing .env
 - Update allowed_hosts with EC2 IP
