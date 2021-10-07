@@ -18,7 +18,7 @@
   - Create a new Key Pair
   - Be sure to download PEM and save file
   - Launch Instance
-  - Edit Security Group for Inbound Data
+  - Add Security Group for Inbound Data
     - Custom TCP 8000 Anywhere 0.0.0.0/0
 
 ### SSH
