@@ -46,7 +46,9 @@
 
 - sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 - sudo reboot
+- nano .env
 - Add missing .env
+- ca
 - Update allowed_hosts with EC2 IP
 - Change Debug to False if not already done.
 
